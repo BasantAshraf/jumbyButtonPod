@@ -1,0 +1,6 @@
+framework module Pods_jumbyButtonPod_Example {
+  umbrella header "Pods-jumbyButtonPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

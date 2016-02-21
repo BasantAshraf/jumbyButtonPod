@@ -1,0 +1,14 @@
+PODS:
+  - jumbyButtonPod (0.1.0)
+
+DEPENDENCIES:
+  - jumbyButtonPod (from `../`)
+
+EXTERNAL SOURCES:
+  jumbyButtonPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  jumbyButtonPod: ee172a97c52bc2473f906c90996aac9849801302
+
+COCOAPODS: 0.39.0
