@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B6C19A1EA92EE2AE98A684EB650079 /* JumpyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4DF5EBC00E03F65C9669699F1725C /* JumpyButton.swift */; };
 		0B3A3A186F83B601C09CE2FDE4EEAE23 /* Pods-jumbyButtonPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFA01C673E9C8EBE9A797C01051F296 /* Pods-jumbyButtonPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28178297A62117DF3D48487C16B1D90B /* jumbyButtonPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CC707CCDFED434FF673D32108362D8A /* jumbyButtonPod.bundle */; };
 		3D9E03559EA5692ABDE1BD9FAB429192 /* Pods-jumbyButtonPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 598A9F71B8D3C7BB5493BDB1B589FD45 /* Pods-jumbyButtonPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FDD7662C1631C9D3E68BC32BE112351 /* jumbyButtonPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D366DE43C275393395DEAEB8ABB0B244 /* jumbyButtonPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C07D431317B5B876DF701BEE12CCCAE /* jumbyButtonPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6138E5149165FAE8A62FC99D235129ED /* jumbyButtonPod-dummy.m */; };
+		541082F02928B02078E35AEE362EF4B1 /* JumpyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4DF5EBC00E03F65C9669699F1725C /* JumpyButton.swift */; };
 		57ED16E850D43256367DB787FA76450B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		5F306F145AE44EE8F0031A72BFEA3CC3 /* Pods-jumbyButtonPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BB5AD3B9D373CBAD8BC2FBCD3F4000 /* Pods-jumbyButtonPod_Example-dummy.m */; };
-		86544E3C9AF7629D1A9D25F4159D8E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		86B4D86A1FFF58A5644B2E7AC5A5D2C6 /* jumbyButtonPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6138E5149165FAE8A62FC99D235129ED /* jumbyButtonPod-dummy.m */; };
+		7954E0FED6D2269D6661081485722C54 /* jumbyButtonPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D366DE43C275393395DEAEB8ABB0B244 /* jumbyButtonPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A6E6608B1BE292B3AADFF74B1EEDE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8B339F1EEFEFE870A85E0BF56B386171 /* Pods-jumbyButtonPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E47EC1DA044F027BD58F0A5A906D700B /* Pods-jumbyButtonPod_Tests-dummy.m */; };
 		F0FA90CDE197EAEFCE55FE5074C9AC6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -25,21 +24,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 935793769DF1668003BFC3028DB6DA8A;
+			remoteGlobalIDString = 94A6540F753FE7E55C558333D5E78CF7;
 			remoteInfo = jumbyButtonPod;
-		};
-		56BA38B275FB380DC9868A808CF7BDB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FE938AC67C37813FED243374B62F248;
-			remoteInfo = "jumbyButtonPod-jumbyButtonPod";
 		};
 		95424FDFEEC78B1EB7B3B530A0CD5461 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 935793769DF1668003BFC3028DB6DA8A;
+			remoteGlobalIDString = 94A6540F753FE7E55C558333D5E78CF7;
 			remoteInfo = jumbyButtonPod;
 		};
 /* End PBXContainerItemProxy section */
@@ -48,9 +40,11 @@
 		007982B6A1B93E22245E9811BF1B24D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BEBDDF9DA9A49BA77A03E1F70845E51 /* Pods-jumbyButtonPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jumbyButtonPod_Example.modulemap"; sourceTree = "<group>"; };
 		0FAF85AC157446AB79E1CE63611946B9 /* Pods-jumbyButtonPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jumbyButtonPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		2691F18A6C883C20CEDCFA26C25499AB /* Pods_jumbyButtonPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jumbyButtonPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2849C1CF47F90BF0028AD0E314A373DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		317EA5A357C85EC63D96D28FE60E5F50 /* Pods-jumbyButtonPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jumbyButtonPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DB62E28A50536CCBFA692A1E1B0D1F9 /* jumbyButtonPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jumbyButtonPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2C122754FC23A4FFB3546CFAA91290 /* Pods-jumbyButtonPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jumbyButtonPod_Tests.modulemap"; sourceTree = "<group>"; };
 		54CF169B7414D3F266516B301220C0E6 /* jumbyButtonPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jumbyButtonPod.xcconfig; sourceTree = "<group>"; };
 		598A9F71B8D3C7BB5493BDB1B589FD45 /* Pods-jumbyButtonPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jumbyButtonPod_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -59,8 +53,6 @@
 		6CFA01C673E9C8EBE9A797C01051F296 /* Pods-jumbyButtonPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jumbyButtonPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		70E4DF5EBC00E03F65C9669699F1725C /* JumpyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JumpyButton.swift; sourceTree = "<group>"; };
 		72B5E0CBC962024BBAE3531E9DF8F116 /* Pods-jumbyButtonPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jumbyButtonPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7CC707CCDFED434FF673D32108362D8A /* jumbyButtonPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jumbyButtonPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		81595D3A45E217F45C866B07D1B7F08D /* Pods_jumbyButtonPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jumbyButtonPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BB5AD3B9D373CBAD8BC2FBCD3F4000 /* Pods-jumbyButtonPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jumbyButtonPod_Example-dummy.m"; sourceTree = "<group>"; };
 		8C9EFD580052EFF26F771D14CADCC22C /* Pods-jumbyButtonPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jumbyButtonPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9F421B4EE9FC550CA61092457C5F8ECB /* Pods-jumbyButtonPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jumbyButtonPod_Example-resources.sh"; sourceTree = "<group>"; };
@@ -69,26 +61,17 @@
 		A3B6C4A096A44CD7CF733014FB897020 /* Pods-jumbyButtonPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jumbyButtonPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD5E000BD3A699DF0CEF6F5D08FE73DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2B0FB2B0449142093C111F3D2574770 /* jumbyButtonPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jumbyButtonPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5890BC4041219A1ABCC2DAEB177CBF8 /* jumbyButtonPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = jumbyButtonPod.modulemap; sourceTree = "<group>"; };
-		C6BEEA5B7B4373D6D21E30823B2376B8 /* Pods_jumbyButtonPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jumbyButtonPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E021338FF7A96D202EB11A5AF78DF0 /* Pods-jumbyButtonPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jumbyButtonPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7E7564A7453344B51D0A000665A369C /* Pods-jumbyButtonPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jumbyButtonPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D366DE43C275393395DEAEB8ABB0B244 /* jumbyButtonPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jumbyButtonPod-umbrella.h"; sourceTree = "<group>"; };
 		E080CD15791EEE7C0B8D1C6D2EB14B79 /* Pods-jumbyButtonPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jumbyButtonPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E47EC1DA044F027BD58F0A5A906D700B /* Pods-jumbyButtonPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jumbyButtonPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		F41F6C0B3F5C3DB36837DE1B98F2772A /* Pods_jumbyButtonPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jumbyButtonPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F861F796E88A85B607CFA9F945A293C0 /* Pods-jumbyButtonPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jumbyButtonPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		10134622BA9A348D91A70B503F5B81BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86544E3C9AF7629D1A9D25F4159D8E34 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		37EC3346C65F080F6CCC59BB05500C64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,10 +80,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4B4B1BD3611521E6B4007FC6894737A /* Frameworks */ = {
+		B59D84FEE598469356F68717835077CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A6E6608B1BE292B3AADFF74B1EEDE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,17 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25A2F92A180344458DF5460BB0F6BEA1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7CC707CCDFED434FF673D32108362D8A /* jumbyButtonPod.bundle */,
-				C2B0FB2B0449142093C111F3D2574770 /* jumbyButtonPod.framework */,
-				81595D3A45E217F45C866B07D1B7F08D /* Pods_jumbyButtonPod_Example.framework */,
-				C6BEEA5B7B4373D6D21E30823B2376B8 /* Pods_jumbyButtonPod_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3D8FCDEA896E0B169D5D4B3962A9EB76 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +159,16 @@
 			path = "Target Support Files/Pods-jumbyButtonPod_Tests";
 			sourceTree = "<group>";
 		};
+		574C8924464B7E087AA015CC1265EF41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB62E28A50536CCBFA692A1E1B0D1F9 /* jumbyButtonPod.framework */,
+				F41F6C0B3F5C3DB36837DE1B98F2772A /* Pods_jumbyButtonPod_Example.framework */,
+				2691F18A6C883C20CEDCFA26C25499AB /* Pods_jumbyButtonPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6DECE8FBA61C804890825C146DD7CC70 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +191,7 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				6DECE8FBA61C804890825C146DD7CC70 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				25A2F92A180344458DF5460BB0F6BEA1 /* Products */,
+				574C8924464B7E087AA015CC1265EF41 /* Products */,
 				E06D0288171CB35BBE30BFBDF818CD1B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -249,14 +232,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		004017B7558D19D19C402F67128EAA93 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4FDD7662C1631C9D3E68BC32BE112351 /* jumbyButtonPod-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		34B7FC90B2C7072A266223B0077006A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3A3A186F83B601C09CE2FDE4EEAE23 /* Pods-jumbyButtonPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1961D2B1003BCA7425F7E90540A346 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954E0FED6D2269D6661081485722C54 /* jumbyButtonPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +274,7 @@
 			);
 			name = "Pods-jumbyButtonPod_Example";
 			productName = "Pods-jumbyButtonPod_Example";
-			productReference = 81595D3A45E217F45C866B07D1B7F08D /* Pods_jumbyButtonPod_Example.framework */;
+			productReference = F41F6C0B3F5C3DB36837DE1B98F2772A /* Pods_jumbyButtonPod_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1A0119598E828CBF2ACD92722BC82899 /* Pods-jumbyButtonPod_Tests */ = {
@@ -309,43 +292,24 @@
 			);
 			name = "Pods-jumbyButtonPod_Tests";
 			productName = "Pods-jumbyButtonPod_Tests";
-			productReference = C6BEEA5B7B4373D6D21E30823B2376B8 /* Pods_jumbyButtonPod_Tests.framework */;
+			productReference = 2691F18A6C883C20CEDCFA26C25499AB /* Pods_jumbyButtonPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5FE938AC67C37813FED243374B62F248 /* jumbyButtonPod-jumbyButtonPod */ = {
+		94A6540F753FE7E55C558333D5E78CF7 /* jumbyButtonPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A1ECD045D317D92F90561FD24FA7965 /* Build configuration list for PBXNativeTarget "jumbyButtonPod-jumbyButtonPod" */;
+			buildConfigurationList = F57F5AE249105C2BF18B404ED67C0DBE /* Build configuration list for PBXNativeTarget "jumbyButtonPod" */;
 			buildPhases = (
-				B8EE7BE480328C8D31CDA9A9913AC538 /* Sources */,
-				B4B4B1BD3611521E6B4007FC6894737A /* Frameworks */,
-				DB2C652F4BDC9EB988BD39B3CD08ECC1 /* Resources */,
+				684B1EAE96D38AB357C9E4E1BF86666E /* Sources */,
+				B59D84FEE598469356F68717835077CD /* Frameworks */,
+				8C1961D2B1003BCA7425F7E90540A346 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "jumbyButtonPod-jumbyButtonPod";
-			productName = "jumbyButtonPod-jumbyButtonPod";
-			productReference = 7CC707CCDFED434FF673D32108362D8A /* jumbyButtonPod.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		935793769DF1668003BFC3028DB6DA8A /* jumbyButtonPod */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0641C80EE2E93D57D603652525567550 /* Build configuration list for PBXNativeTarget "jumbyButtonPod" */;
-			buildPhases = (
-				189015D0EC7E47B5274021E3C6AC1106 /* Sources */,
-				10134622BA9A348D91A70B503F5B81BC /* Frameworks */,
-				0ADB9DB594A5CD13576A671B02AF4480 /* Resources */,
-				004017B7558D19D19C402F67128EAA93 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F303C61F8A129F6B3B29910B426BD7F3 /* PBXTargetDependency */,
 			);
 			name = jumbyButtonPod;
 			productName = jumbyButtonPod;
-			productReference = C2B0FB2B0449142093C111F3D2574770 /* jumbyButtonPod.framework */;
+			productReference = 4DB62E28A50536CCBFA692A1E1B0D1F9 /* jumbyButtonPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,51 +329,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 25A2F92A180344458DF5460BB0F6BEA1 /* Products */;
+			productRefGroup = 574C8924464B7E087AA015CC1265EF41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				935793769DF1668003BFC3028DB6DA8A /* jumbyButtonPod */,
-				5FE938AC67C37813FED243374B62F248 /* jumbyButtonPod-jumbyButtonPod */,
+				94A6540F753FE7E55C558333D5E78CF7 /* jumbyButtonPod */,
 				087C7A399D3B4A7AB2B95E94D30ECE88 /* Pods-jumbyButtonPod_Example */,
 				1A0119598E828CBF2ACD92722BC82899 /* Pods-jumbyButtonPod_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0ADB9DB594A5CD13576A671B02AF4480 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28178297A62117DF3D48487C16B1D90B /* jumbyButtonPod.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB2C652F4BDC9EB988BD39B3CD08ECC1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		189015D0EC7E47B5274021E3C6AC1106 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86B4D86A1FFF58A5644B2E7AC5A5D2C6 /* jumbyButtonPod-dummy.m in Sources */,
-				04B6C19A1EA92EE2AE98A684EB650079 /* JumpyButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		276FC37F1ADF067134F4E0BDA559F873 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8B339F1EEFEFE870A85E0BF56B386171 /* Pods-jumbyButtonPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B1EAE96D38AB357C9E4E1BF86666E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C07D431317B5B876DF701BEE12CCCAE /* jumbyButtonPod-dummy.m in Sources */,
+				541082F02928B02078E35AEE362EF4B1 /* JumpyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,33 +366,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8EE7BE480328C8D31CDA9A9913AC538 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		32030D6270BFD9A3CEFE8B26EAAAF356 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = jumbyButtonPod;
-			target = 935793769DF1668003BFC3028DB6DA8A /* jumbyButtonPod */;
+			target = 94A6540F753FE7E55C558333D5E78CF7 /* jumbyButtonPod */;
 			targetProxy = 95424FDFEEC78B1EB7B3B530A0CD5461 /* PBXContainerItemProxy */;
 		};
 		D5AC3A2DB1A3F877A007233B698C00D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = jumbyButtonPod;
-			target = 935793769DF1668003BFC3028DB6DA8A /* jumbyButtonPod */;
+			target = 94A6540F753FE7E55C558333D5E78CF7 /* jumbyButtonPod */;
 			targetProxy = 53A3546A8BD704985609B20A0F4ECD73 /* PBXContainerItemProxy */;
-		};
-		F303C61F8A129F6B3B29910B426BD7F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "jumbyButtonPod-jumbyButtonPod";
-			target = 5FE938AC67C37813FED243374B62F248 /* jumbyButtonPod-jumbyButtonPod */;
-			targetProxy = 56BA38B275FB380DC9868A808CF7BDB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -556,6 +488,34 @@
 			};
 			name = Debug;
 		};
+		6B171872661FAE43ADE7443FC4DD2FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CF169B7414D3F266516B301220C0E6 /* jumbyButtonPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/jumbyButtonPod/jumbyButtonPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/jumbyButtonPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/jumbyButtonPod/jumbyButtonPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = jumbyButtonPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6E2431E66B16CA70981E6D10608FC3A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 317EA5A357C85EC63D96D28FE60E5F50 /* Pods-jumbyButtonPod_Tests.release.xcconfig */;
@@ -585,18 +545,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		825BE8080DDD17E4680119B4CED73A11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54CF169B7414D3F266516B301220C0E6 /* jumbyButtonPod.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = jumbyButtonPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		935C7ADD3C97BFDAAC1F00608DDA13EB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -629,7 +577,7 @@
 			};
 			name = Debug;
 		};
-		9E231AFF3F5D532954D4C985AE985086 /* Release */ = {
+		9FA6A53B1CF7F01A8481FE45E0F393D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54CF169B7414D3F266516B301220C0E6 /* jumbyButtonPod.xcconfig */;
 			buildSettings = {
@@ -686,58 +634,9 @@
 			};
 			name = Release;
 		};
-		DAA3A85B36A2BC44488050879CD36A75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54CF169B7414D3F266516B301220C0E6 /* jumbyButtonPod.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = jumbyButtonPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		F542CF0603E8C5F3063FCC597B8D0B18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54CF169B7414D3F266516B301220C0E6 /* jumbyButtonPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/jumbyButtonPod/jumbyButtonPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/jumbyButtonPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/jumbyButtonPod/jumbyButtonPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = jumbyButtonPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0641C80EE2E93D57D603652525567550 /* Build configuration list for PBXNativeTarget "jumbyButtonPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F542CF0603E8C5F3063FCC597B8D0B18 /* Debug */,
-				9E231AFF3F5D532954D4C985AE985086 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2A2F84A36A6036EFDA4027F48583303B /* Build configuration list for PBXNativeTarget "Pods-jumbyButtonPod_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -765,11 +664,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A1ECD045D317D92F90561FD24FA7965 /* Build configuration list for PBXNativeTarget "jumbyButtonPod-jumbyButtonPod" */ = {
+		F57F5AE249105C2BF18B404ED67C0DBE /* Build configuration list for PBXNativeTarget "jumbyButtonPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				825BE8080DDD17E4680119B4CED73A11 /* Debug */,
-				DAA3A85B36A2BC44488050879CD36A75 /* Release */,
+				6B171872661FAE43ADE7443FC4DD2FBD /* Debug */,
+				9FA6A53B1CF7F01A8481FE45E0F393D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

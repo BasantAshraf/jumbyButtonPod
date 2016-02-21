@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class JumpyButton: UIButton {
+ public class JumpyButton: UIButton {
 
-    func startJumpyButton (){
+   public func startJumpyButton (){
          let options : UIViewAnimationOptions = [  .Repeat, .CurveEaseInOut]
         UIView.animateWithDuration(0.3, delay: 0, options: options , animations: {
             //self represents the button
