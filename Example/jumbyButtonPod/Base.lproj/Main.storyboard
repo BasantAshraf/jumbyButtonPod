@@ -28,7 +28,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="myCusomButton" destination="L5f-63-8ke" id="kvj-m3-2RB"/>
+                        <outlet property="myCusomButton" destination="L5f-63-8ke" id="ttz-vi-IwA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

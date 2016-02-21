@@ -8,10 +8,8 @@
 
 import UIKit
 
-class JumpyButton: UIButton {
+public class JumpyButton: UIButton {
 
-    
-    
    public func startJumpyButton (){
          let options : UIViewAnimationOptions = [  .Repeat, .CurveEaseInOut]
         UIView.animateWithDuration(0.3, delay: 0, options: options , animations: {
