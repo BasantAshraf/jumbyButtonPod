@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import jumbyButtonPod
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myCusomButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        myCusomButton.startJumpyButton ()
+    
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'ECDD00E8E2A79034B4CAFD1B'
+               BlueprintIdentifier = '75D52367E9A73774273023CB'
                BlueprintName = 'jumbyButtonPod'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'jumbyButtonPod.framework'>
